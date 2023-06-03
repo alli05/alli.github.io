@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> JQuery </title>
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+      <div class="container="col-sm-6>
+        <label class="form-label" for="#num1">Enter first number: </label>
+        <input class="form-control" type="text" id="num1">
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="#num2">Enter second number: </label>
+        <input class="form-control" type="text" id="num2">
+      </div>
+        <button class="btn btn-success">Enter</button>
+      </div>
+
+    </body>
+    <script type="text/javascript">
+$(document).ready(function(){
+
+  $("button").click(function(){
+    var getNum1 = $("#num1").val();
+    var getNum2 = $("#num2").val();
+    var result1 = Number(getNum1) + Number(getNum2);
+    var result2 = Number(getNum1) - Number(getNum2);
+    var result3 = Number(getNum1) * Number(getNum2);
+    var result4 = Number(getNum1) / Number(getNum2);
+
+alert("The sum is " + result1 + "\n" + "The difference is " + result2 + "\n" + "The product is " + result3 +"\n"+ "The quotient is " + result4);
+});
+});
+
+
+    </script>
+    </html>
