@@ -1,0 +1,262 @@
+* {
+    scroll-behavior: smooth;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url("https://cdn.wallpapersafari.com/16/99/a5f68r.jpg");
+    background-size: cover;
+}
+.navbar-inverse{
+    background: transparent;
+    border-color: transparent;
+}
+.navbar-inverse .navbar-brand{
+    color: #000;
+    font-family: Helvetica;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-right: 35px;
+}
+#myNavbar .navbar-nav li a{
+    color: #fff;
+    font-size: 18px;
+    font-family: Helvetica;
+    margin-top: 5px;
+}
+.dropdown{
+    position: relative;
+}
+#myNavbar .dropdown-menu li a{
+    color:#000;
+    font-size:16px;
+}
+#myNavbar .dropdown-menu{
+    display: none;
+    position: absolute;
+}
+#myNavbar .dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+#main{
+background: transparent;
+width: 100%;
+height: 50px;
+}
+#main .logo{
+float: left;
+}
+
+.logo{
+background: url("https://scontent.xx.fbcdn.net/v/t1.15752-9/350323412_1264037710888362_5296240145728993419_n.png?stp=dst-png_p403x403&_nc_cat=104&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeGFZ2XdMtkQAtdDlYuJAL6gK7S_mOc7dFMrtL-Y5zt0U5_N6CTZHNNDaZVheqXgV08wgQhSk0snmCBj2larpHEt&_nc_ohc=ZzjIvoOQSRgAX9-0J3T&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdSNxF5k3muS6758FAB4R5W5Y46n_rI6E48OhtagUyWwjg&oe=64A02780");
+width: 150px;
+height: 150px;
+background-position: center;
+background-size: cover;
+margin-left: 40px;
+margin-top: -25px;
+}
+
+#main nav ul{
+float: right;
+margin-right: 20px;
+margin-top: 20px;
+}
+
+#main nav ul li{
+list-style-type: none;
+display: inline-block;
+margin:0 8px;
+line-height: 50px;
+}
+
+#main nav ul li a{
+text-decoration: none;
+color: #fff;
+font-size: 14px;
+padding: 6px 13px;
+transition: 0.4s all ease-out;
+}
+
+#main nav ul li a.active,
+#main nav ul li a:hover{
+background: #fd4a47;
+color: #fff;
+transition: 0.4s all ease-out;
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+}
+
+
+.fade-in.show{
+    opacity: 1;
+}
+
+
+/* HOMEPAGE */
+
+.home .container{
+padding-top: 30vh;
+width: 100%;
+align-items: center;
+text-align: center;
+}
+
+.home .container h1{
+color:#fff;
+font-size: 100px;
+}
+
+.home .container span{
+width: 4px;
+height: 20px;
+background: translate(-50%, -50%);
+position: absolute;
+top: 5%;
+left: -15%;
+}
+
+.home .container p{
+font-size: 14px;
+line-height: 25px;
+letter-spacing: 2px;
+color: #fff;
+}
+
+.container .btn{
+width:150px;
+height: 35px;
+border: none;
+background: #fd4a47;
+color: #fff;
+transition: 0.5s all ease-out;
+margin-top: 10px;
+}
+
+.home .container .btn:hover{
+background: transparent;
+border: 1px solid #fd4a47;
+transition: 0.5s all ease-out;
+}
+
+/* about */
+
+.about .container{
+    margin-top: 50vh;
+    padding-top: 130px;
+    margin-bottom: 30vh;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+    
+.about .container h1{
+    color:#fff;
+    font-size: 100px;
+}
+    
+    
+.about .container p{
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 2px;
+    color: #fff;
+    padding: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.about .container .row .col-sm-16 img {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+}
+
+/* PORTFOLIO */
+
+.portfolio .container{
+    margin-top: 50vh;
+    padding-top: 130px;
+    margin-bottom: 30vh;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+    
+.portfolio .container .row .col-sm-4 h3{
+    color:#fff;
+    font-size: 24px;
+}
+  
+.portfolio h1 {
+    color: #fff;
+    font-size: 100px;
+}
+    
+.portfolio .container p{
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 2px;
+    color: #fff;
+    padding: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.portfolio .container .row .col-sm-4 img {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+}
+
+/* contacts */
+
+.contacts .container{
+    margin-top: 50vh;
+    padding-top: 130px;
+    margin-bottom: 30vh;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.contacts h1 {
+    color: #fff;
+    font-size: 100px;
+}
+
+.contacts ul {
+    margin-top: 150px;
+    margin-bottom: 40px;
+    gap: 5rem;
+    list-style: none;
+    font-size: 72px;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.contacts ul li{
+    text-align: center;
+    align-items: center;
+}
+
+.contacts ul li a i{
+    color: #fff;
+}
+
+.contacts ul li a i:hover{
+    font-size: 100px;
+    transition: 0.5s ease-in-out;
+    
+    color: #fff;
+}
